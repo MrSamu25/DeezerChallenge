@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_renglon_relative_marco_lista_reproduccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/Gray">
+
+        <ImageView
+            android:id="@+id/renglon_iv_imagen_lista_reproduccion"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/renglon_tv_nombre_lista_reproduccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/renglon_iv_imagen_lista_reproduccion"
+            android:text="Nombre de la lista de reproducción" />
+
+        <TextView
+            android:id="@+id/renglon_tv_nombre_usuario_creador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/renglon_tv_nombre_lista_reproduccion"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@+id/renglon_iv_imagen_lista_reproduccion"
+            android:text="Nombre del usuario creador" />
+
+        <TextView
+            android:id="@+id/renglon_tv_total_canciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/renglon_tv_nombre_usuario_creador"
+            android:layout_toRightOf="@+id/renglon_iv_imagen_lista_reproduccion"
+            android:text="Total canciones" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

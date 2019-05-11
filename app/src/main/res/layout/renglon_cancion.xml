@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_renglon_relative_marco_cancion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/Gray">
+
+        <ImageView
+            android:id="@+id/renglon_iv_imagen_cancion"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/renglon_tv_nombre_cancion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/renglon_iv_imagen_cancion"
+            android:text="Nombre de la canción" />
+
+        <TextView
+            android:id="@+id/renglon_tv_nombre_artista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/renglon_tv_nombre_cancion"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@+id/renglon_iv_imagen_cancion"
+            android:text="Nombre del artista" />
+
+        <TextView
+            android:id="@+id/renglon_tv_anio_lanzamiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/renglon_tv_nombre_artista"
+            android:layout_toRightOf="@+id/renglon_iv_imagen_cancion"
+            android:text="Año de lanzamiento" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
